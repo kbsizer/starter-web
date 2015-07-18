@@ -2,3 +2,5 @@ This is some text.
 
 A second paragraph.
 
+Adding a third paragraph.  After changing the "core.autocrlf" setting to "false".
+
