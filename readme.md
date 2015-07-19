@@ -68,3 +68,13 @@ Note: At this point, you will probably see a lot of messages that read "warning:
 ```
 $ git commit -m "Normalize all the line endings"
 ```
+
+#### Results
+
+Good news: The above seems to have done the trick:  Edit/commit/push resulted in no "CRLF" warnings.
+
+Bad news: I do not understand what we just did.
+
+Bad news: Making lined ending commits to the shared/remote repository seems like a Bad Thing.  I don't want to update a zillion files and/or trigger a bunch of Jenkins jobs to resolve my line terminator warnings.
+
+I believe I saw another solution... something about deleting local files, setting line terminator properties, then pulling everything down again.  
