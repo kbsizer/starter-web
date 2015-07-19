@@ -4,3 +4,5 @@ A second paragraph.
 
 Adding a third paragraph.  After changing the "core.autocrlf" setting to "false".
 
+After big line end conversion song and dance, adding another line (with vim)
+
