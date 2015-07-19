@@ -78,3 +78,24 @@ Bad news: I do not understand what we just did.
 Bad news: Making lined ending commits to the shared/remote repository seems like a Bad Thing.  I don't want to update a zillion files and/or trigger a bunch of Jenkins jobs to resolve my line terminator warnings.
 
 I believe I saw another solution... something about deleting local files, setting line terminator properties, then pulling everything down again.  
+
+### Working with Git Performance issues
+
+#### To better diagnose startup delays, edit /etc/profile and add set -x near the top.
+
+The result follows (note: The delay is not seen every time, but more than half)
+
+```
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
++ test -x /share/msysGit/initialize.sh -a '!' -d /.git
++ case ":$PATH:" in
++ . /etc/git-completion.bash
+++ case "$COMP_WORDBREAKS" in
+++ : great
+++ type _get_comp_words_by_ref
+                                     <<<<<<<< DELAY HAPPENS HERE <<<<<<<
+++ __git_merge_strategies=
+++ __git_all_commands=
+++ __git_porcelain_commands=
+```
