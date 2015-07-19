@@ -99,3 +99,7 @@ Run 'git help <command>' to display help for specific commands.
 ++ __git_all_commands=
 ++ __git_porcelain_commands=
 ```
+
+#### Possibly helpful articles
+* http://stackoverflow.com/questions/4485059/git-bash-is-extremely-slow-in-windows-7-x64
+* http://stackoverflow.com/questions/2835775/msysgit-bash-is-horrendously-slow-in-windows-7
