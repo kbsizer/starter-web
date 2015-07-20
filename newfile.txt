@@ -1,0 +1,1 @@
+this file contains only one line.  (no need for pager)
