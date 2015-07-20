@@ -1,8 +1,17 @@
-This is some text.
-
-A second paragraph.
-
-Adding a third paragraph.  After changing the "core.autocrlf" setting to "false".
-
-After big line end conversion song and dance, adding another line (with vim)
-
+[0m[0m404.html[0m
+[0mapple-touch-icon-precomposed.png[0m
+[0mcrossdomain.xml[0m
+[1;36mcss[0m/
+[0mfavicon.ico[0m
+[1;36mfonts[0m/
+[0mgen-readme-html.sh[0m
+[0mhipster.txt[0m
+[0mhumans.txt[0m
+[0mindex.html[0m
+[1;36mjs[0m/
+[0mnewfile.txt[0m
+[0mreadme.html[0m
+[0mreadme.md[0m
+[0mrobots.txt[0m
+[0msimple.html[0m
+[m

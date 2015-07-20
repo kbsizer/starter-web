@@ -81,7 +81,7 @@ I believe I saw another solution... something about deleting local files, settin
 
 ### Working with Git Performance issues
 
-#### To better diagnose startup delays, edit /etc/profile and add set -x near the top.
+#### To better diagnose startup delays, edit `/etc/profile` and add `set -x` near the top.
 
 The result follows (note: The delay is not seen every time, but more than half)
 
@@ -103,3 +103,10 @@ Run 'git help <command>' to display help for specific commands.
 #### Possibly helpful articles
 * http://stackoverflow.com/questions/4485059/git-bash-is-extremely-slow-in-windows-7-x64
 * http://stackoverflow.com/questions/2835775/msysgit-bash-is-horrendously-slow-in-windows-7
+
+### Pager Control (How to make LESS behave better)
+
+Putting the following line into your `.bashrc`
+```
+$ export LESS="-RFX"
+```
