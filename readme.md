@@ -114,3 +114,6 @@ $ export LESS="-RFX"
 ### Copyright
 
 Copyright 2015 Acme, Inc.
+
+### Dummy change
+for illustrative purposes only
