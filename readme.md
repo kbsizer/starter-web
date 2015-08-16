@@ -110,3 +110,7 @@ Putting the following line into your `.bashrc`
 ```
 $ export LESS="-RFX"
 ```
+
+### Copyright
+
+Copyright 2015 Acme, Inc.
