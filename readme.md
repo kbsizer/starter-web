@@ -1,5 +1,7 @@
 # Starter Web Project
 
+This is a simple website project to illustrate Git and Github.
+
 ## Introduction
 
 ## Purpose
@@ -8,4 +10,3 @@
 
 ## How to Contribute
 
-Testing 1-2-3
