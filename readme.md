@@ -8,7 +8,11 @@ This is an example to show different parts of the Git repository and various com
 
 ## Purpose
 
+And here's where we state the purpose of it all.
+
 ## Deployment
+
+Deploy anywhere you want.
 
 ## How to Contribute
 
